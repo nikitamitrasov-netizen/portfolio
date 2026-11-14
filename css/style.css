@@ -588,12 +588,23 @@ button:focus-visible {
   inset: 0;
   z-index: 60;
   background: rgba(9, 18, 28, .94);
-  display: grid;
-  place-items: center;
-  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  overflow: auto;
 }
 .lightbox[hidden] { display: none; }
-.lightbox img { max-width: 100%; max-height: 100%; border-radius: 12px; box-shadow: 0 30px 80px rgba(0, 0, 0, .5); }
+.lightbox img {
+  width: auto;
+  height: auto;
+  max-width: calc(100vw - 48px);
+  max-height: calc(100vh - 48px);
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, .5);
+  margin: auto;
+}
 .lightbox__close {
   position: absolute;
   top: 20px;
@@ -660,6 +671,9 @@ button:focus-visible {
   .brand__text small { display: none; }
   .footer__col--right { text-align: left; align-items: flex-start; }
   .back-top { right: 14px; bottom: 14px; }
+  .lightbox { padding: 12px; }
+  .lightbox img { max-width: calc(100vw - 24px); max-height: calc(100vh - 24px); }
+  .lightbox__close { top: 10px; right: 10px; }
   .project__links { flex-wrap: wrap; }
 }
 
