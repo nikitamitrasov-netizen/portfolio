@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#443a2c"/>
+      <stop offset="1" stop-color="#7d6a4f"/>
+    </linearGradient>
+    <pattern id="p" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" opacity="0.16"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g)"/>
+  <rect width="1200" height="900" fill="url(#p)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.85" stroke-width="5"
+     stroke-linejoin="round" stroke-linecap="round">
+    <rect x="486" y="324" width="228" height="164" rx="13"/>
+    <path d="M486 324 l54 -54 h108 l54 54"/>
+    <circle cx="600" cy="406" r="42"/>
+  </g>
+  <text x="600" y="648" font-family="Georgia, serif" font-size="54"
+        fill="#ffffff" fill-opacity="0.92" text-anchor="middle">Документ 4</text>
+</svg>
