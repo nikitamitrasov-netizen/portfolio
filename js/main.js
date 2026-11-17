@@ -140,7 +140,7 @@
     if (!("IntersectionObserver" in window)) return;
     var targets = document.querySelectorAll(
       ".hero__text, .hero__photo, .tile, .card, .photo, .stat, .contact, " +
-      ".table-block, .about__text, .about__facts, .project, .doc"
+      ".table-block, .about__text, .about__facts, .project, .doc, .award"
     );
     if (!targets.length) return;
 
