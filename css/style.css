@@ -496,6 +496,14 @@ button:focus-visible {
 }
 .docs--portrait .doc figcaption span { margin-top: auto; }
 
+@media (min-width: 721px) {
+  .docs--portrait > .doc:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    width: calc(50% - 10px);
+    justify-self: center;
+  }
+}
+
 /* ---------------------------------------------------------- награды класса */
 .awards {
   display: grid;

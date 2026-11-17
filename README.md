@@ -20,7 +20,7 @@ achievements.html   достижения: 13 наград класса, нагр
 css/style.css       оформление
 js/main.js          меню, фильтр фото, просмотр на весь экран, кнопка «показать все»
 assets/photos/      фотографии: portrait.jpg, trip-1…9.jpg, event-1…16.jpg,
-                    ach-1…6.jpg, class-1…13.jpg, kurs-1…6.jpg
+                    ach-1…7.jpg, class-1…13.jpg, kurs-1…6.jpg
 assets/img/         заглушки, если фото ещё нет
 files/karty/        архивы технологических карт по классам
 files/listy/        рабочие листы по классам
