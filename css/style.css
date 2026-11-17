@@ -501,10 +501,8 @@ button:focus-visible {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  margin-top: 22px;
+  margin-top: 10px;
 }
-
-.award[hidden] { display: none; }
 
 .award .doc__shot {
   aspect-ratio: 4 / 3;
@@ -524,21 +522,6 @@ button:focus-visible {
   flex: 1;
   display: flex;
   flex-direction: column;
-}
-
-.award .award__class {
-  align-self: flex-start;
-  display: inline-block;
-  margin-bottom: 9px;
-  padding: 3px 10px;
-  border-radius: 999px;
-  background: #e9f2ef;
-  color: var(--accent);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: .08em;
-  line-height: 1.5;
-  text-transform: uppercase;
 }
 
 .award figcaption b { margin-top: 1px; }
